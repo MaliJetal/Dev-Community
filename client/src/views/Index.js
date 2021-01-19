@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 //components
 import IndexNavbar from '../components/navbars/IndexNavbar';
 import frntImg from '../assets/img/pattern_react.png';
+import Footer from '../components/footers/Footer';
 
 class Index extends Component {
   render() {
@@ -14,20 +15,18 @@ class Index extends Component {
             <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
               <div className="pt-32 sm:pt-0">
                 <h2 className="font-semibold text-4xl text-gray-700">
-                  Notus React - A beautiful extension for Tailwind CSS.
+                  Dev-Community - Engage, Explore and Code.
                 </h2>
                 <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                  Notus React is Free and Open Source. It does not change or add
-                  any CSS to the already one from{" "}
+                  Dev-Community is powerful platform for developers, programmers and enthusiast learners, help them to understand the issues at hand, encourage productive actions, and demonstrate how those actions are creating positive outcomes.{" "}
                   <a
                     href="https://tailwindcss.com/?ref=creativetim"
                     className="text-gray-700"
                     target="_blank"
                   >
-                    Tailwind CSS
+                    Dev-Community
                   </a>
-                  . It features multiple HTML elements and it comes with dynamic
-                  components for ReactJS, Vue and Angular.
+                  . Help and earn points.
                 </p>
               </div>
             </div>
@@ -38,6 +37,7 @@ class Index extends Component {
             alt="..."
           />
         </section>
+        <Footer fixed />
       </div>
     );
   }
