@@ -23,8 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 /client/node_modules
-#next-commit
-/client/src/components
-/client/src/views
-/client/src/layouts
-/cllient/src/assets
+
