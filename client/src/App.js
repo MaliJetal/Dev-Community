@@ -9,6 +9,7 @@ import "./assets/styles/tailwind.css";
 
 import './App.css';
 import Index from "./views/Index.js";
+import Auth from "./layouts/Auth.js";
 
 class App extends Component {
   render() {
@@ -18,8 +19,9 @@ class App extends Component {
           <div className="App">
             <Switch>
               {/*<Route exact path ='/' component={Landing} />*/}
-
+              <Route path="/auth" component={Auth} />
               <Route path="/" exact component={Index} />
+
               {/* add redirect for first page */}
               <Redirect from="*" to="/" />
             </Switch>
