@@ -24,6 +24,3 @@ yarn-error.log*
 
 /client/node_modules
 
-/client/src/components/navbars/AuthNavbar.js
-/client/src/components/dropdowns/PagesDropdown.js
-/client/src/components/footers/FooterSmall.js
