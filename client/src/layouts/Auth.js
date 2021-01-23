@@ -6,6 +6,7 @@ import AuthNavbar from '../components/navbars/AuthNavbar';
 import FooterSmall from '../components/footers/FooterSmall';
 //views
 import Login from "../views/auth/Login";
+import Register from '../views/auth/Register';
 import register_png from '../assets/img/register_bg_2.png';
 
 class Auth extends Component {
@@ -25,6 +26,7 @@ class Auth extends Component {
             </div>
             <Switch>
               <Route path="/auth/login" exact component={Login} />
+              <Route path="/auth/register" exact component={Register} />
               <Redirect from="/auth" to="/auth/login" />
             </Switch>
           </section>

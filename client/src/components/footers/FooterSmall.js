@@ -9,7 +9,7 @@ class FooterSmall extends Component {
       <div className="FooterSmall">
         <footer
           className={
-            "absolute w-full bottom-0 bg-gray-900 pb-6"
+            "relative w-full bottom-0 bg-gray-900 pb-6"
           }
         >
           <div className="container mx-auto px-4">
