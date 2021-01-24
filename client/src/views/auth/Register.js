@@ -94,7 +94,7 @@ class Register extends Component {
                             href="#pablo"
                             className="text-blue-500"
                             onClick={(e) => e.preventDefault()}
-                          >
+                          >npm
                             Privacy Policy
                           </a>
                         </span>

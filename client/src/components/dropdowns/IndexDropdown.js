@@ -108,4 +108,4 @@ const IndexDropdown = () => {
   )
 }
 
-export default IndexDropdown
+export default IndexDropdown;

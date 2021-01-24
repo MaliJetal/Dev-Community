@@ -24,3 +24,9 @@ yarn-error.log*
 
 /client/node_modules
 
+/config/keys.js
+
+Next commit
+/config/passport.js
+
+/routes/api

@@ -1,0 +1,36 @@
+{
+  "name": "dev-community",
+  "version": "1.0.0",
+  "description": "Dev Community",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server \" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaliJetal/Dev-Community.git"
+  },
+  "author": "Jetal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaliJetal/Dev-Community/issues"
+  },
+  "homepage": "https://github.com/MaliJetal/Dev-Community#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "gravatar": "^1.8.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.13",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "password": "^0.1.1"
+  }
+}
