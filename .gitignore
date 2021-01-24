@@ -26,7 +26,3 @@ yarn-error.log*
 
 /config/keys.js
 
-Next commit
-/config/passport.js
-
-/routes/api
