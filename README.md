@@ -19,6 +19,8 @@ Also i would try to involve webpack and grunt, gulp as an optional to bundle js 
 1. It is authenticated and authorised application with the help of jwt token handling.<br>
 2. The redux is used for managing state application.<br>
 3. The MongoDb database is used to update and store the users, profiles, and posts.<br>
+4. The Dev-Community helps to be socialize and provide better answers/solution on questions/queries asked within the community.<br>
+5. Each answer/view/post the communitor will get the points. And the points can be used as a reward. The more points earn the more reward you get.<br>
 
 
 
