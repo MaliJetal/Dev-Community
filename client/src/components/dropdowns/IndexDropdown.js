@@ -20,7 +20,7 @@ const IndexDropdown = () => {
   return (
     <>
     <a 
-      className="hover:text-gray-600 text-gray-800 px-3 py-4 lg:py-2 flex items-center
+      //className="hover:text-gray-600 text-gray-800 px-3 py-4 lg:py-2 flex items-center
       text-xs uppercase font-bold"
       href = "#pablo"
       ref = {btnDropdownRef}
@@ -35,13 +35,13 @@ const IndexDropdown = () => {
       ref = {popoverDropdownRef}
       className = {
         (dropdownOverShow ? "block " : "hidden ") + 
-        "bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48"
+      //  "bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48"
       }
     >
       <span
-        className = {
-          "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-no-wrap bg-transparent text-gray-500"
-        }
+        //className = {
+         // "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-no-wrap bg-transparent text-gray-500"
+        //}
       >
         Get Started
       </span>
@@ -53,53 +53,53 @@ const IndexDropdown = () => {
       </Link>
       <Link
         to="/admin/profile"
-        className= "text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
+        //className= "text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
       >
         Profile
       </Link>
       <Link
         to="/admin/post"
-        className= "text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
+        //className= "text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
       >
         Posts & Activity
       </Link>
       <div className="h-0 mx-4 my-2 border border-solid border-gray-200" />
       <span
-        className={
-          "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-no-wrap bg-transparent text-gray-500"
-        }
+        //className={
+         // "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-no-wrap bg-transparent text-gray-500"
+       // }
       >
         Auth
       </span>
       <Link
         to = "/auth/login"
-        className = "text-sm py-2 px-4 font-normal block w-full whitspace-no-wrap bg-transparent text-gray-800"
+        //className = "text-sm py-2 px-4 font-normal block w-full whitspace-no-wrap bg-transparent text-gray-800"
       >
         Login
       </Link>
       <Link
         to = "/auth/register"
-        className = "text-sm py-2 px-4 font-normal block w-full whitspace-no-wrap bg-transparent text-gray-800"
+       // className = "text-sm py-2 px-4 font-normal block w-full whitspace-no-wrap bg-transparent text-gray-800"
       >
         Register
       </Link>
       <div className="h-0 mx-4 my-2 border border-solid border-gray-200" />
       <span
-        className={
-          "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-no-wrap bg-transparent text-gray-500"
-        }
+        //className={
+         // "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-no-wrap bg-transparent text-gray-500"
+        //}
       >
         Manage
       </span>
       <Link
         to="/settings"
-        className="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
+        //className="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
       >
         Settings
       </Link>
       <Link
         to="/contact"
-        className="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
+        //className="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
       >
         Contact Us
       </Link>
