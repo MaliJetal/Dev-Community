@@ -15,9 +15,9 @@ class Auth extends Component {
       <div className="Auth">
         <main>
           <AuthNavbar transparent />
-          <section className="relative w-full h-full py-40 min-h-screen">
+          <section>// className="relative w-full h-full py-40 min-h-screen">
             <div
-              className="absolute top-0 w-full h-full bg-gray-900 bg-no-repeat bg-full"
+              //className="absolute top-0 w-full h-full bg-gray-900 bg-no-repeat bg-full"
               style={{
                 backgroundImage:
                   "url(" + register_png + ")",
